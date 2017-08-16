@@ -7,7 +7,7 @@ shinypackage_server <- function(input, output) {
     )
 
     getFilteredBirthDt <- function() {
-        dplyr::filter(cleaned_birth_data, year >= input$period[1] & year <= input$period[2])
+        createFilteredDt(min_year = input$period[1], max_year = input$period[2])
     }
 
     output$birth_dt <- renderDataTable(
