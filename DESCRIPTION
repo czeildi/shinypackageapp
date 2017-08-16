@@ -1,0 +1,14 @@
+Package: shinypackageapp
+Title: a simple shiny app
+Version: 0.0.0.9000
+Authors@R: person("Ildiko", "Czeller", email = "dummy@gmail.com", role = c("aut", "cre"))
+Description: A simple shiny app.
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: shiny,
+    ggplot2,
+    dplyr,
+    magrittr
