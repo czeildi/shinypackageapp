@@ -9,8 +9,6 @@
 #'   application (usually by pressing Ctrl+C or Esc).
 #'
 #' @import shiny
-#' @importFrom magrittr %>%
-#' @import ggplot2
 #'
 #' @examples \donttest{runShinyPackageApp(launch.browser = TRUE)}
 #' @export
