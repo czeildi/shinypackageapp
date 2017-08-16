@@ -14,7 +14,7 @@
 #' @export
 runShinyPackageApp <- function(...) {
     shiny::runApp(
-        appDir = system.file("shinypackageapp", package = "shinypackageapp"),
+        appDir = system.file(".", package = "shinypackageapp"),
         ...
     )
 }
